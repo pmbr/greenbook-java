@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class TrigoSpiralMatrixTest {
 
     @Test
-    public void print2x2() {
+    public void testPrint2x2() {
         int[][] matrix2x2 = {
                 {1, 2},
                 {3, 4}
@@ -18,7 +18,7 @@ public class TrigoSpiralMatrixTest {
     }
 
     @Test
-    public void print3x3() {
+    public void testPrint3x3() {
         int[][] matrix3x3 = {
                 {1, 2, 3},
                 {4, 5, 6},
@@ -29,7 +29,7 @@ public class TrigoSpiralMatrixTest {
     }
 
     @Test
-    public void print4x4() {
+    public void testPrint4x4() {
         int[][] matrix4x4 = {
                 { 1,  2,  3,  4},
                 { 5,  6,  7,  8},
@@ -41,7 +41,7 @@ public class TrigoSpiralMatrixTest {
     }
 
     @Test
-    public void print5x5() {
+    public void testPrint5x5() {
         int[][] matrix5x5 = {
                 {1,   2,  3,  4,  5},
                 {6,   7,  8,  9, 10},
@@ -54,7 +54,7 @@ public class TrigoSpiralMatrixTest {
     }
 
     @Test
-    public void print3x2() {
+    public void testPrint3x2() {
         int[][] matrix3x2 = {
                 {1, 2},
                 {3, 4},
@@ -65,7 +65,7 @@ public class TrigoSpiralMatrixTest {
     }
 
     @Test
-    public void print5x3() {
+    public void testPrint5x3() {
         int[][] matrix5x3 = {
                 { 1,  2,  3},
                 { 4,  5,  6},
@@ -78,7 +78,7 @@ public class TrigoSpiralMatrixTest {
     }
 
     @Test
-    public void print4x7() {
+    public void testPrint4x7() {
         int[][] matrix4x7 = {
                 {1,  2,   3,  4,  5,  6,  7},
                 {8,  9,  10, 11, 12, 13, 14},
