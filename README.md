@@ -2,9 +2,9 @@
 
 This project contains Java implementations for a sort of problems using data structures and algorithms
 
-#### TrigoSpiralMatrix
+#### org.greenbook.TrigoSpiralMatrix
 
-Given an input n x m matrix `int[][]`, prints its elements in spiral, starting from position `[0][0]`
+Given an input N x M matrix `int[][]`, prints its elements in spiral, starting from position `[0][0]`.
 
 Implementation uses trigonometric functions to control iteration over elements. 
 
@@ -38,6 +38,32 @@ Input:
 Output: 
 
 1 2 3 6 9 12 15 14 13 10 7 4 5 8 11
+
+#### org.greenbook.RotateMatrix
+
+Given an input N x N matrix `int[][]`, executes an in-place rotation of its elements, in the counterclockwise direction.
+
+Example:
+
+Matrix 4 x 4
+
+Input:
+
+|    |    |    |    |
+|----|----|----|----|
+|  1 |  2 |  3 |  4 |
+|  5 |  6 |  7 |  8 |
+|  9 | 10 | 11 | 12 |
+| 13 | 14 | 15 | 16 |
+
+After rotation:
+
+|    |    |    |    |
+|----|----|----|----|
+|  4 |  8 | 12 | 16 |
+|  3 |  7 | 11 | 15 |
+|  2 |  6 | 10 | 14 |
+|  1 |  5 |  9 | 13 |
 
 ---
 
