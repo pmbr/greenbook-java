@@ -65,6 +65,25 @@ After rotation:
 |  2 |  6 | 10 | 14 |
 |  1 |  5 |  9 | 13 |
 
+#### org.greenbook.BFS
+
+Given an tree of `TreeNode`, starting from a node considered as root, prints all elements using breadth-first search
+
+Example:
+
+Input - a tree with nodes and respective children:
+
+1 -> 4, 2
+4 -> 3
+2 -> 3, 5, 8, 7
+3 -> 10, 9
+5 -> 7, 8, 6
+8 -> 7, 5
+
+Output - using node 1 as root node.
+
+1 4 2 3 5 8 7 10 9 6
+
 ---
 
 If you are wondering why the name green-book, it worth saying that it is not related to the movie of same name, released in 2018, directed by Peter Farelly, and starred by Viggo Mortesen and Mahersala Ali.

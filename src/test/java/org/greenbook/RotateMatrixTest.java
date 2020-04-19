@@ -8,7 +8,7 @@ import static org.greenbook.RotateMatrix.rotate;
 public class RotateMatrixTest {
 
     @Test
-    public void rotate4x4() {
+    public void testRotate4x4() {
         int[][] matrix = new int[][] {
             { 1,  2,  3,  4} ,
             { 5,  6,  7,  8} ,
@@ -26,7 +26,7 @@ public class RotateMatrixTest {
     }
 
     @Test
-    public void rotate5x5() {
+    public void testRotate5x5() {
         int[][] matrix = new int[][] {
             { 1,  2,  3,  4, 5} ,
             { 6,  7,  8,  9, 10} ,
