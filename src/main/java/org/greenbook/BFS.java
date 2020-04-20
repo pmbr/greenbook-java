@@ -21,7 +21,7 @@ public class BFS {
             output += element + " ";
         }
 
-        return output;
+        return output.trim();
     }
 
     private static void visit(List<TreeNode> queue, List<TreeNode> visited, List<Integer> elements) {

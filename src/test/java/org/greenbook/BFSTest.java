@@ -41,7 +41,7 @@ public class BFSTest {
         eight.addChild(seven);
         eight.addChild(five);
 
-        assertEquals("1 4 2 3 5 8 7 10 9 6 ", traverse(one));
+        assertEquals("1 4 2 3 5 8 7 10 9 6", traverse(one));
     }
 
 
@@ -73,6 +73,6 @@ public class BFSTest {
 
         eight.addChild(ten);
 
-        assertEquals("1 2 3 4 5 6 7 8 9 10 ", traverse(one));
+        assertEquals("1 2 3 4 5 6 7 8 9 10", traverse(one));
     }
 }
