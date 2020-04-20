@@ -8,7 +8,7 @@ Given an input N x M matrix `int[][]`, prints its elements in spiral, starting f
 
 Implementation uses trigonometric functions to control iteration over elements. 
 
-Examples:
+Example 1:
 
 Matrix 2 x 2
 
@@ -22,6 +22,8 @@ Input:
 Output: 
 
 1 2 4 3
+
+Example 2:
 
 Matrix 5 x 3
 
@@ -69,7 +71,7 @@ After rotation:
 
 Given an tree of `TreeNode`, starting from a node considered as root, prints all elements using breadth-first search
 
-Example:
+Example 1:
 
 Input - a tree with nodes and respective children:
 
@@ -83,6 +85,21 @@ Input - a tree with nodes and respective children:
 Output - using node 1 as root node.
 
 1 4 2 3 5 8 7 10 9 6
+
+Example 2:
+
+Input - a tree with nodes and respective children:
+
+1 -> 2, 3
+2 -> 4, 5
+3 -> 6, 7
+4 -> 8
+6 -> 9
+7 -> 10
+
+Output - using node 1 as root node.
+
+1 2 3 4 6 7 8 9 10
 
 ---
 
