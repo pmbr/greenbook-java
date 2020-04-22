@@ -8,8 +8,8 @@ import java.util.List;
 
 public class DFS {
 
-    public static String traverse(TreeNode root) {
-        List<TreeNode> visited = new ArrayList<>();
+    public static String traverse(TreeNode<Integer> root) {
+        List<TreeNode<Integer>> visited = new ArrayList<>();
         List<Integer> elements = new ArrayList<>();
 
         visit(root, visited, elements);
@@ -22,13 +22,13 @@ public class DFS {
         return output.trim();
     }
 
-    private static void visit(TreeNode node, List<TreeNode> visited, List<Integer> elements) {
+    private static void visit(TreeNode<Integer> node, List<TreeNode<Integer>> visited, List<Integer> elements) {
         visited.add(node);
-        if (!elements.contains(node.value)) {
-            elements.add(node.value);
+        if (!elements.contains(node.getValue())) {
+            elements.add(node.getValue());
         }
-        if (node.children != null && !node.children.isEmpty()) {
-            for (TreeNode child: node.children) {
+        if (node.getChildren() != null && !node.getChildren().isEmpty()) {
+            for (TreeNode child: node.getChildren()) {
                 if (!visited.contains(child)) {
                     visit(child, visited, elements);
                 }

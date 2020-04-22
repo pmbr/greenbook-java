@@ -7,9 +7,9 @@ import java.util.List;
 
 public class BFS {
 
-    public static String traverse(TreeNode root) {
-        List<TreeNode> queue = new ArrayList<>();
-        List<TreeNode> visited = new ArrayList<>();
+    public static String traverse(TreeNode<Integer> root) {
+        List<TreeNode<Integer>> queue = new ArrayList<>();
+        List<TreeNode<Integer>> visited = new ArrayList<>();
         List<Integer> elements = new ArrayList<>();
 
         queue.add(root);
@@ -24,18 +24,18 @@ public class BFS {
         return output.trim();
     }
 
-    private static void visit(List<TreeNode> queue, List<TreeNode> visited, List<Integer> elements) {
+    private static void visit(List<TreeNode<Integer>> queue, List<TreeNode<Integer>> visited, List<Integer> elements) {
         if (queue.isEmpty()) {
             return;
         }
-        TreeNode root = queue.get(0);
+        TreeNode<Integer> root = queue.get(0);
         if (root == null) {
             return;
         }
         if (!visited.contains(root)) {
-            elements.add(root.value);
+            elements.add(root.getValue());
             visited.add(root);
-            for (TreeNode child: root.children) {
+            for (TreeNode child: root.getChildren()) {
                 if (!visited.contains(child)) {
                     queue.add(child);
                 }
