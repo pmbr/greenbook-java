@@ -71,7 +71,7 @@ public class BFSTest {
 
         six.addChild(nine);
 
-        eight.addChild(ten);
+        seven.addChild(ten);
 
         assertEquals("1 2 3 4 5 6 7 8 9 10", traverse(one));
     }
