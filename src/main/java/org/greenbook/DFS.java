@@ -8,21 +8,21 @@ import java.util.List;
 
 public class DFS {
 
-    public static String traverse(TreeNode<Integer> root) {
-        List<TreeNode<Integer>> visited = new ArrayList<>();
-        List<Integer> elements = new ArrayList<>();
+    public static <T> String traverse(TreeNode<T> root) {
+        List<TreeNode<T>> visited = new ArrayList<>();
+        List<T> elements = new ArrayList<>();
 
         visit(root, visited, elements);
 
         String output = "";
-        for (Integer element: elements) {
+        for (T element: elements) {
             output += element + " ";
         }
 
         return output.trim();
     }
 
-    private static void visit(TreeNode<Integer> node, List<TreeNode<Integer>> visited, List<Integer> elements) {
+    private static <T> void visit(TreeNode<T> node, List<TreeNode<T>> visited, List<T> elements) {
         visited.add(node);
         if (!elements.contains(node.getValue())) {
             elements.add(node.getValue());
