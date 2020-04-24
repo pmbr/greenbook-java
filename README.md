@@ -128,6 +128,22 @@ Output - considering node 1 as root node.
 
 1 2 4 8 5 11 13 14 12 3 6 9 7 10
 
+#### org.greenbook.AdjacentDuplicateRemoverTest
+
+Giver an input string, remove adjacent duplicate characters. If removing a sequence of duplicate characters results in a string with a new duplicate sequence, this new one must be removed too.
+
+Examples:
+
+Input: pqqprq -> Output: rq
+
+Input: abcde -> Output: abcde
+
+Input: aabcc -> Output: b
+
+Input: pqqqprqaa -> Output: rq
+
+Input: abba -> Output: empty string
+ 
 ---
 
 If you are wondering why the name green-book, it worth saying that it is not related to the movie of same name, released in 2018, directed by Peter Farelly, and starred by Viggo Mortesen and Mahersala Ali.
