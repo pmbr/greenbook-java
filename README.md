@@ -69,22 +69,17 @@ After rotation:
 
 #### org.greenbook.BFS
 
-Given an tree of `TreeNode`, starting from a node considered as root, prints all elements using breadth-first search
+Given an tree of `TreeNode`, starting from a node considered its root, prints all elements using breadth-first search
 
 Example 1:
 
-Input - a tree with nodes and respective children:
+Input:
 
-1 -> 4, 2
-4 -> 3
-2 -> 3, 5, 8, 7
-3 -> 10, 9
-5 -> 7, 8, 6
-8 -> 7, 5
+![tree](img/tree1.png)
 
-Output - using node 1 as root node.
+Output - considering node 1 as root node.
 
-1 4 2 3 5 8 7 10 9 6
+1 4 2 3 5 7 8 10 9 6
 
 Example 2:
 
@@ -97,9 +92,41 @@ Input - a tree with nodes and respective children:
 6 -> 9
 7 -> 10
 
-Output - using node 1 as root node.
+Output - considering node 1 as root node.
 
 1 2 3 4 6 7 8 9 10
+
+#### org.greenbook.DFS
+
+Given an tree of `TreeNode`, starting from a node considered its root, prints all elements using depth-first search
+
+Example 1:
+
+Input:
+
+![tree](img/tree1.png)
+
+Output - considering node 1 as root node.
+
+1 4 3 10 9 2 8 7 5 6
+
+Example 2:
+
+Input - a tree with nodes and respective children:
+
+1 -> 2, 3
+2 -> 4, 5
+3 -> 6, 7
+4 -> 8
+5 -> 11, 12
+6 -> 9
+7 -> 10
+11 -> 13
+13 -> 14
+
+Output - considering node 1 as root node.
+
+1 2 4 8 5 11 13 14 12 3 6 9 7 10
 
 ---
 

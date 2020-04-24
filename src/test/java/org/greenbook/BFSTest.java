@@ -28,20 +28,19 @@ public class BFSTest {
 
         two.addChild(three);
         two.addChild(five);
-        two.addChild(eight);
         two.addChild(seven);
+        two.addChild(eight);
 
         three.addChild(ten);
         three.addChild(nine);
 
+        five.addChild(six);
         five.addChild(seven);
         five.addChild(eight);
-        five.addChild(six);
 
         eight.addChild(seven);
-        eight.addChild(five);
 
-        assertEquals("1 4 2 3 5 8 7 10 9 6", traverse(one));
+        assertEquals("1 4 2 3 5 7 8 10 9 6", traverse(one));
     }
 
 

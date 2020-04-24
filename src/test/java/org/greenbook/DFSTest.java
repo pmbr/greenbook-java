@@ -27,21 +27,20 @@ public class DFSTest {
         four.addChild(three);
 
         two.addChild(three);
-        two.addChild(eight);
         two.addChild(five);
         two.addChild(seven);
+        two.addChild(eight);
 
         three.addChild(ten);
         three.addChild(nine);
 
+        five.addChild(six);
         five.addChild(seven);
         five.addChild(eight);
-        five.addChild(six);
 
         eight.addChild(seven);
-        eight.addChild(five);
 
-        assertEquals("1 4 3 10 9 2 8 7 5 6", traverse(one));
+        assertEquals("1 4 3 10 9 2 5 6 7 8", traverse(one));
     }
 
     @Test
@@ -59,6 +58,7 @@ public class DFSTest {
         TreeNode eleven = new TreeNode(11);
         TreeNode twelve = new TreeNode(12);
         TreeNode thirteen = new TreeNode(13);
+        TreeNode fourteen = new TreeNode(14);
 
         one.addChild(two);
         one.addChild(three);
@@ -71,15 +71,17 @@ public class DFSTest {
 
         four.addChild(eight);
 
+        five.addChild(eleven);
+        five.addChild(twelve);
+
         six.addChild(nine);
 
         seven.addChild(ten);
 
-        five.addChild(eleven);
-        five.addChild(twelve);
-
         eleven.addChild(thirteen);
 
-        assertEquals("1 2 4 8 5 11 13 12 3 6 9 7 10", traverse(one));
+        thirteen.addChild(fourteen);
+
+        assertEquals("1 2 4 8 5 11 13 14 12 3 6 9 7 10", traverse(one));
     }
 }
