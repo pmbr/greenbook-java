@@ -86,10 +86,15 @@ Example 2:
 Input - a tree with nodes and respective children:
 
 1 -> 2, 3
+
 2 -> 4, 5
+
 3 -> 6, 7
+
 4 -> 8
+
 6 -> 9
+
 7 -> 10
 
 Output - considering node 1 as root node.
@@ -115,13 +120,21 @@ Example 2:
 Input - a tree with nodes and respective children:
 
 1 -> 2, 3
+
 2 -> 4, 5
+
 3 -> 6, 7
+
 4 -> 8
+
 5 -> 11, 12
+
 6 -> 9
+
 7 -> 10
+
 11 -> 13
+
 13 -> 14
 
 Output - considering node 1 as root node.
