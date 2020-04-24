@@ -1,4 +1,4 @@
-# green-book
+# greenbook
 
 This project contains Java implementations for a sort of problems using data structures and algorithms
 
@@ -146,6 +146,6 @@ Input: abba -> Output: empty string
  
 ---
 
-If you are wondering why the name green-book, it worth saying that it is not related to the movie of same name, released in 2018, directed by Peter Farelly, and starred by Viggo Mortesen and Mahersala Ali.
+If you are wondering why the name greenbook, it worth saying that it is not related to the movie of same name, released in 2018, directed by Peter Farelly, and starred by Viggo Mortesen and Mahersala Ali.
 
 The name was inspired by the front cover of the book Cracking the coding interview, written by Gayle Laakmann McDowell, 6th edition.
