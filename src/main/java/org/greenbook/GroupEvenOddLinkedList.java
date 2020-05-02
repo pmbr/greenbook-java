@@ -1,6 +1,6 @@
 package org.greenbook;
 
-import org.greenbook.model.LinkedNode;
+import org.greenbook.list.LinkedNode;
 
 public class GroupEvenOddLinkedList {
 
