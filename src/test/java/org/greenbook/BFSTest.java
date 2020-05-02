@@ -1,6 +1,6 @@
 package org.greenbook;
 
-import org.greenbook.model.TreeNode;
+import org.greenbook.tree.TreeNode;
 import org.junit.Test;
 
 import static org.greenbook.BFS.traverse;

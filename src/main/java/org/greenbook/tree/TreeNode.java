@@ -1,4 +1,4 @@
-package org.greenbook.model;
+package org.greenbook.tree;
 
 import java.util.ArrayList;
 import java.util.List;

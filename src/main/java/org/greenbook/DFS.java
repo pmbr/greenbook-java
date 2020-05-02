@@ -1,9 +1,8 @@
 package org.greenbook;
 
-import org.greenbook.model.TreeNode;
+import org.greenbook.tree.TreeNode;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class DFS {

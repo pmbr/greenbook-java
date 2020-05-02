@@ -1,6 +1,6 @@
 package org.greenbook;
 
-import org.greenbook.model.BinaryTreeNode;
+import org.greenbook.tree.BinaryTreeNode;
 import org.junit.Test;
 
 import static org.greenbook.BinaryTreeBoundary.boundaries;

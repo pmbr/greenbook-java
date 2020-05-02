@@ -1,6 +1,6 @@
 package org.greenbook;
 
-import org.greenbook.model.BinaryTreeNode;
+import org.greenbook.tree.BinaryTreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
