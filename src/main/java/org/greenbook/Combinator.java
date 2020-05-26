@@ -5,14 +5,14 @@ import java.util.List;
 
 public class Combinator {
 
-    public static List<List<Integer>> combinations(List<Integer> values) {
-        List<List<Integer>> combinations = new ArrayList<>();
+    public static <T> List<List<T>> combinations(List<T> values) {
+        List<List<T>> combinations = new ArrayList<>();
         combinations(0, values, combinations);
         return combinations;
     }
 
-    private static void combinations(int pos, List<Integer> values, List<List<Integer>> combinations) {
-        Integer value = values.get(pos);
+    private static <T> void combinations(int pos, List<T> values, List<List<T>> combinations) {
+        T value = values.get(pos);
         combinations.addAll(cloneWithValues(combinations, value));
         combinations.add(withValue(value));
         if (pos + 1 < values.size()) {
@@ -20,22 +20,22 @@ public class Combinator {
         }
     }
 
-    private static List<Integer> withValue(Integer value) {
-        List<Integer> newCombination = new ArrayList<>();
+    private static <T> List<T> withValue(T value) {
+        List<T> newCombination = new ArrayList<>();
         newCombination.add(value);
         return newCombination;
     }
 
-    private static List<List<Integer>> cloneWithValues(List<List<Integer>> combinations, Integer value) {
-        List<List<Integer>> newCombinations = new ArrayList<>();
-        for (List<Integer> combination: combinations) {
+    private static <T> List<List<T>> cloneWithValues(List<List<T>> combinations, T value) {
+        List<List<T>> newCombinations = new ArrayList<>();
+        for (List<T> combination: combinations) {
             newCombinations.add(cloneWithValue(combination, value));
         }
         return newCombinations;
     }
 
-    private static List<Integer> cloneWithValue(List<Integer> result, Integer value) {
-        List<Integer> newCombination = new ArrayList<>();
+    private static <T> List<T> cloneWithValue(List<T> result, T value) {
+        List<T> newCombination = new ArrayList<>();
         newCombination.addAll(result);
         newCombination.add(value);
         return newCombination;
