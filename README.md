@@ -169,6 +169,16 @@ Given a linked list of Integer elements, regroup them, having even ones as head 
 
 Creates a tree and provides a iterator for its elements 
 
+#### org.greenbook.Combinator
+
+Given a list of values, return their combinations
+
+Example:
+
+Input: [1, 2, 3, 3]
+
+Output: [[1], [1, 2], [2], [1, 3], [1, 2, 3], [2, 3], [3], [1, 4], [1, 2, 4], [2, 4], [1, 3, 4], [1, 2, 3, 4], [2, 3, 4], [3, 4], [4]]
+
 ---
 
 If you are wondering why the name greenbook, it worth saying that it is not related to the movie of same name, released in 2018, directed by Peter Farelly, and starred by Viggo Mortesen and Mahersala Ali.
