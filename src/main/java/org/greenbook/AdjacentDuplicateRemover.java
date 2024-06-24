@@ -1,7 +1,6 @@
 package org.greenbook;
 
 public class AdjacentDuplicateRemover {
-
     public static String removeAdjacentDuplicate(String input) {
         if (input == null || input.length() < 2) {
             return input;
