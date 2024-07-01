@@ -5,6 +5,9 @@ import org.greenbook.tree.BinaryTreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Given a tree, prints its boundary elements
+ */
 public class BinaryTreeBoundary {
 
     public static final int ROOT = 0;

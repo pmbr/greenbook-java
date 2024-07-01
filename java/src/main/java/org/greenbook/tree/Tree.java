@@ -3,6 +3,9 @@ package org.greenbook.tree;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+/**
+ * Creates a tree and provides a iterator for its elements
+ */
 public class Tree<T extends TreeNode> {
 
     private T root;
