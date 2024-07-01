@@ -1,6 +1,14 @@
 # greenbook
 
-This project contains Java implementations for a sort of problems using data structures and algorithms
+This project contains implementations for a sort of problems using data structures and algorithms
+
+There are (or will be) implemementations using:
+
+- Java
+- Go
+- Python
+- NodeJS / JavaScript
+- Scala
 
 ---
 
