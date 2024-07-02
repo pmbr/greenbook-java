@@ -2,6 +2,9 @@ package org.greenbook;
 
 import org.greenbook.list.LinkedNode;
 
+/**
+ * Given a linked list of Integer elements, regroup them, having even ones as head and odd ones as tail
+ */
 public class GroupEvenOddLinkedList {
 
     public static LinkedNode<Integer> groupKeepingOrder(LinkedNode<Integer> rootNode) {
